@@ -87,7 +87,6 @@ extern bool Server_Remote_Connect(void);
 extern bool Client_Remote_Connect(void);
 extern bool SpawnedFromWChat;
 
-
 /***********************************************************************************************
  * Init_Game -- Main game initialization routine.                                              *
  *                                                                                             *
@@ -713,6 +712,8 @@ bool Init_Game(int , char *[])
 	** dialogs are invoked.  (GameSpeed must be synchronized between systems.)
 	*/
 	Options.Load_Settings();
+
+	Initialise_CFE_Patch_Config();
 
 	return(true);
 }

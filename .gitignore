@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/bin
+/REDALERT/Win32
+/TIBERIANDAWN/Win32
+*.vcxproj.user
